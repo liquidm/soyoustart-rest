@@ -9,7 +9,7 @@ module OVH
   class RESTError < StandardError; end
 
   class REST
-    API_URL = "https://api.ovh.com/1.0"
+    API_URL = "https://eu.api.soyoustart.com/1.0"
 
     class << self
       def generate_consumer_key(api_key, access_rules)
