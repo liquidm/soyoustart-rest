@@ -4,7 +4,7 @@ require 'net/http'
 require 'net/https'
 require 'json'
 
-module OVH
+module Soyoustart
 
   class RESTError < StandardError; end
 
